@@ -12,6 +12,9 @@
 		CE877CDA1EFB602400DDFD25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE877CD81EFB602400DDFD25 /* Main.storyboard */; };
 		CE877CDC1EFB602400DDFD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE877CDB1EFB602400DDFD25 /* Assets.xcassets */; };
 		CE877CDF1EFB602400DDFD25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE877CDD1EFB602400DDFD25 /* LaunchScreen.storyboard */; };
+		CE877CE71EFB712500DDFD25 /* CustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE877CE61EFB712500DDFD25 /* CustomCellViewController.swift */; };
+		CE877CE91EFB75CA00DDFD25 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE877CE81EFB75CA00DDFD25 /* CustomTableViewCell.swift */; };
+		CE877CEC1EFB77AF00DDFD25 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE877CEB1EFB77AF00DDFD25 /* dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CE877CDB1EFB602400DDFD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE877CDE1EFB602400DDFD25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE877CE01EFB602400DDFD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE877CE61EFB712500DDFD25 /* CustomCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCellViewController.swift; path = ../CustomCellViewController.swift; sourceTree = "<group>"; };
+		CE877CE81EFB75CA00DDFD25 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CE877CEB1EFB77AF00DDFD25 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		CE877CD31EFB602400DDFD25 /* MyApp08 */ = {
 			isa = PBXGroup;
 			children = (
+				CE877CEA1EFB776F00DDFD25 /* imgs */,
 				CE877CD41EFB602400DDFD25 /* AppDelegate.swift */,
 				CE877CD61EFB602400DDFD25 /* ViewController.swift */,
 				CE877CD81EFB602400DDFD25 /* Main.storyboard */,
 				CE877CDB1EFB602400DDFD25 /* Assets.xcassets */,
 				CE877CDD1EFB602400DDFD25 /* LaunchScreen.storyboard */,
 				CE877CE01EFB602400DDFD25 /* Info.plist */,
+				CE877CE61EFB712500DDFD25 /* CustomCellViewController.swift */,
+				CE877CE81EFB75CA00DDFD25 /* CustomTableViewCell.swift */,
 			);
 			path = MyApp08;
+			sourceTree = "<group>";
+		};
+		CE877CEA1EFB776F00DDFD25 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				CE877CEB1EFB77AF00DDFD25 /* dog.jpg */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE877CEC1EFB77AF00DDFD25 /* dog.jpg in Resources */,
 				CE877CDF1EFB602400DDFD25 /* LaunchScreen.storyboard in Resources */,
 				CE877CDC1EFB602400DDFD25 /* Assets.xcassets in Resources */,
 				CE877CDA1EFB602400DDFD25 /* Main.storyboard in Resources */,
@@ -138,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE877CD71EFB602400DDFD25 /* ViewController.swift in Sources */,
+				CE877CE71EFB712500DDFD25 /* CustomCellViewController.swift in Sources */,
+				CE877CE91EFB75CA00DDFD25 /* CustomTableViewCell.swift in Sources */,
 				CE877CD51EFB602400DDFD25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
