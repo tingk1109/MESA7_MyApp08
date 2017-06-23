@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         print("back home")
     }
     
-    private let mydata = ["猜數字V1", "猜數字V2", "切換場景", "自訂UIView",
+    private let mydata = ["猜數字V1", "猜數字V2", "切換場景", "自訂UIView(X)",//和簽名板一起
                           "簽名板", "自訂Cell的TableView", "Item3", "Item4",
                           "Item1", "Item2", "Item3", "Item4",
                           "Item1", "Item2", "Item3", "Item4",
@@ -42,6 +42,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     private func gotoVC(whereVC: Int){
         switch (whereVC) {
+        case 2:
+            if let vc2 = storyboard?.instantiateViewController(withIdentifier: "vc2"){
+                show(vc2, sender: self)
+            }
+
+        case 4:
+            if let vc4 = storyboard?.instantiateViewController(withIdentifier: "painervc"){
+                show(vc4, sender: self)
+            }
+            
         case 5:
             if let vc = storyboard?.instantiateViewController(withIdentifier: "customcellvc"){
             show(vc, sender: self)

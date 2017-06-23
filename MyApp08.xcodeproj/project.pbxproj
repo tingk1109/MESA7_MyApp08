@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6BBF421EFCAF5C00529EC8 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBF411EFCAF5C00529EC8 /* VC2.swift */; };
+		CE6BBF441EFCAF6800529EC8 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBF431EFCAF6800529EC8 /* VC3.swift */; };
+		CE6BBF461EFCAF7700529EC8 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBF451EFCAF7700529EC8 /* VC4.swift */; };
+		CE6BBF481EFCC47900529EC8 /* PainterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBF471EFCC47900529EC8 /* PainterView.swift */; };
+		CE6BBF4A1EFCF8D300529EC8 /* PainterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBF491EFCF8D300529EC8 /* PainterVC.swift */; };
 		CE877CD51EFB602400DDFD25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE877CD41EFB602400DDFD25 /* AppDelegate.swift */; };
 		CE877CD71EFB602400DDFD25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE877CD61EFB602400DDFD25 /* ViewController.swift */; };
 		CE877CDA1EFB602400DDFD25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE877CD81EFB602400DDFD25 /* Main.storyboard */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE6BBF411EFCAF5C00529EC8 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		CE6BBF431EFCAF6800529EC8 /* VC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		CE6BBF451EFCAF7700529EC8 /* VC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
+		CE6BBF471EFCC47900529EC8 /* PainterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainterView.swift; sourceTree = "<group>"; };
+		CE6BBF491EFCF8D300529EC8 /* PainterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainterVC.swift; sourceTree = "<group>"; };
 		CE877CD11EFB602400DDFD25 /* MyApp08.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp08.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE877CD41EFB602400DDFD25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE877CD61EFB602400DDFD25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +79,11 @@
 				CE877CE01EFB602400DDFD25 /* Info.plist */,
 				CE877CE61EFB712500DDFD25 /* CustomCellViewController.swift */,
 				CE877CE81EFB75CA00DDFD25 /* CustomTableViewCell.swift */,
+				CE6BBF411EFCAF5C00529EC8 /* VC2.swift */,
+				CE6BBF431EFCAF6800529EC8 /* VC3.swift */,
+				CE6BBF451EFCAF7700529EC8 /* VC4.swift */,
+				CE6BBF471EFCC47900529EC8 /* PainterView.swift */,
+				CE6BBF491EFCF8D300529EC8 /* PainterVC.swift */,
 			);
 			path = MyApp08;
 			sourceTree = "<group>";
@@ -155,10 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6BBF441EFCAF6800529EC8 /* VC3.swift in Sources */,
 				CE877CD71EFB602400DDFD25 /* ViewController.swift in Sources */,
+				CE6BBF481EFCC47900529EC8 /* PainterView.swift in Sources */,
+				CE6BBF461EFCAF7700529EC8 /* VC4.swift in Sources */,
 				CE877CE71EFB712500DDFD25 /* CustomCellViewController.swift in Sources */,
+				CE6BBF421EFCAF5C00529EC8 /* VC2.swift in Sources */,
 				CE877CE91EFB75CA00DDFD25 /* CustomTableViewCell.swift in Sources */,
 				CE877CD51EFB602400DDFD25 /* AppDelegate.swift in Sources */,
+				CE6BBF4A1EFCF8D300529EC8 /* PainterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +344,7 @@
 				CE877CE51EFB602400DDFD25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
